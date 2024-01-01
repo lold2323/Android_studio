@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.example.findrestaurant.app-mergeDebugResources-33:/layout/activity_maps.xml",
+        "source": "com.example.findrestaurant.app-main-36:/layout/activity_maps.xml"
+    },
+    {
+        "merged": "C:\\Users\\BF_Lee\\.gradle\\daemon\\8.0\\com.example.findrestaurant.app-mergeDebugResources-33:\\layout\\activity_maps.xml",
+        "source": "C:\\Users\\BF_Lee\\.gradle\\daemon\\8.0\\com.example.findrestaurant.app-main-36:\\layout\\activity_maps.xml"
+    }
+]

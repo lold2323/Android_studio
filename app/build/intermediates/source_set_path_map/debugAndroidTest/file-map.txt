@@ -1,0 +1,6 @@
+com.example.findrestaurant.test.app-core-1.5.0-0 C:\Users\BF_Lee\.gradle\caches\transforms-3\06efaa22c1ce096df2a1d4820d9fc400\transformed\core-1.5.0\res
+com.example.findrestaurant.test.app-annotation-experimental-1.3.0-1 C:\Users\BF_Lee\.gradle\caches\transforms-3\88458c15e9d4deeaacb01682d15ad390\transformed\annotation-experimental-1.3.0\res
+com.example.findrestaurant.test.app-androidTest-2 D:\GitHub\Android_studio\app\build\generated\res\resValues\androidTest\debug
+com.example.findrestaurant.test.app-mergeDebugAndroidTestResources-3 D:\GitHub\Android_studio\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.findrestaurant.test.app-mergeDebugAndroidTestResources-4 D:\GitHub\Android_studio\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.findrestaurant.test.app-merged_res-5 D:\GitHub\Android_studio\app\build\intermediates\merged_res\debugAndroidTest
