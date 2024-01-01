@@ -6,7 +6,8 @@ plugins {
 
 android {
     namespace = "com.example.findrestaurant"
-    compileSdk = 33
+    //compileSdk 33에서 34변경
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.findrestaurant"
@@ -51,5 +52,5 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
     // Google Map 추가
     implementation("com.google.android.gms:play-services-maps:18.1.0")
-    implementation("com.google.android.gms:play-services-location:19.0.1")
+    implementation("com.google.android.gms:play-services-location:21.0.1")
 }
