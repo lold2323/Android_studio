@@ -21,11 +21,11 @@ data class InfoResponse(
 @Parcelize
 data class InfoDetail(
 
-    //Todo 첫번째 데이터 예시.
+    //Todo 상호명.
     @SerializedName("BIZESTBL_NM")
     val nameRestaurant: String,
 
-    //Todo 두번째 데이터 예시.
+    //Todo .
     @SerializedName("REFINE_WGS84_LOGT")
     val lngRestaurant: String,
 

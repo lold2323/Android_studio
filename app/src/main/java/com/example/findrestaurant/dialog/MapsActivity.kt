@@ -1,28 +1,18 @@
-package com.example.findrestaurant
+package com.example.findrestaurant.dialog
 
-import android.os.AsyncTask
 import android.os.Bundle
-import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
+import com.example.findrestaurant.R
 import com.example.findrestaurant.databinding.ActivityMapsBinding
+import com.example.findrestaurant.model.InfoDetail
+import com.example.findrestaurant.model.InfoRequest
+import com.example.findrestaurant.model.InfoResponse
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
-import org.w3c.dom.Document
-import org.w3c.dom.Element
-import org.w3c.dom.Node
-import org.w3c.dom.NodeList
-import org.xml.sax.InputSource
-import org.xml.sax.SAXException
-import java.io.IOException
-import java.io.StringReader
-import java.net.URL
-import javax.xml.parsers.DocumentBuilder
-import javax.xml.parsers.DocumentBuilderFactory
-import javax.xml.parsers.ParserConfigurationException
 
 
 class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
@@ -60,4 +50,6 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap.addMarker(MarkerOptions().position(hankyungUniv).title("Marker in hankyungUniv"))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(hankyungUniv))
     }
+
+
 }

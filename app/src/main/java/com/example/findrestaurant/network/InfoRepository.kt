@@ -1,7 +1,7 @@
 package com.example.findrestaurant.network
 
-import com.example.findrestaurant.model.SomeInfoRequest
-import com.example.findrestaurant.model.SomeInfoResponse
+import com.example.findrestaurant.model.InfoRequest
+import com.example.findrestaurant.model.InfoResponse
 import retrofit2.Response
 import timber.log.Timber
 import javax.inject.Inject
@@ -14,12 +14,12 @@ interface InfoRepository {
 
 }
 
-class SomeInfoRepositoryImpl @Inject constructor(
-    private val service: SomeInfoService,
-): SomeInfoRepository {
-    override suspend fun getSomeInfoList(request: SomeInfoRequest): Result<InfoResponse, Exception> {
+class InfoRepositoryImpl @Inject constructor(
+    private val service: InfoService,
+): InfoRepository {
+    override suspend fun getInfoList(request: InfoRequest): Result<InfoResponse, Exception> {
         return request(
-            service.getSomeInfoList(request)
+            service.getInfoList(request)
         ) { it }
     }
 
