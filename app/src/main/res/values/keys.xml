@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 경기도 모범음식점 현황 API key -->
+<resources>
+    <string name="GYUNGGI_RESTAURANT_API_KEY">2f426691ed814443b634e610f35713e7</string>
+</resources>
