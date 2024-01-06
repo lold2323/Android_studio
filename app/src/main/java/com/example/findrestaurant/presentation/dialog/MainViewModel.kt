@@ -53,6 +53,7 @@ class MainViewModel @Inject constructor() : ViewModel() {
 
                 result.onSuccess {
                     //Todo 공공 api 요청이 성공하여 데이터를 정상적으로 수신하였을 때, 데이터를 처리.
+
                 }.onException {
                     //Todo 공공 api 요청에 실패하였을 때 사용자에게 알림 등 UI 처리 진행.
                 }
