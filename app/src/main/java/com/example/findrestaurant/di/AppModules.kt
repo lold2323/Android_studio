@@ -1,7 +1,7 @@
 package com.example.findrestaurant.di
 
 import com.example.findrestaurant.BuildConfig
-import com.example.findrestaurant.MyApplication.Companion.gson
+import com.example.findrestaurant.presentation.dialog.MyApplication.Companion.gson
 import com.example.findrestaurant.common.AppConstant
 import com.example.findrestaurant.network.InfoRepository
 import com.example.findrestaurant.network.InfoRepositoryImpl

@@ -14,7 +14,7 @@ import javax.inject.Inject
 interface InfoService {
 
     companion object {
-        private const val REQUEST_GET_LIST_URL = "/some/info/list" //rest api url 예시..
+        private const val REQUEST_GET_LIST_URL = "https://openapi.gg.go.kr/ParagonRestaurant?Type=json&KEY=2f426691ed814443b634e610f35713e7"//rest api url 예시..
     }
 
     @POST(REQUEST_GET_LIST_URL)

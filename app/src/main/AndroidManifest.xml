@@ -36,7 +36,7 @@
             android:exported="false"에서 "true"변경, launcherMode, intent-filer 블록 추가
         -->
         <activity
-            android:name=".dialog.MapsActivity"
+            android:name=".presentation.dialog.MapsActivity"
             android:exported="true"
             android:label="@string/title_activity_maps"
             android:launchMode="singleTask">

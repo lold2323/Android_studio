@@ -38,6 +38,7 @@ android {
         jvmTarget = "1.8"
     }
     buildFeatures {
+        dataBinding = true
         viewBinding = true
         buildConfig = true
     }
@@ -60,6 +61,7 @@ dependencies {
     implementation("androidx.hilt:hilt-work:1.1.0")
     implementation("androidx.hilt:hilt-navigation-fragment:1.1.0")
     implementation("androidx.work:work-runtime-ktx:2.9.0")
+    kapt ("com.android.databinding:compiler:7.0.1")
 
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2")

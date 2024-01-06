@@ -1,12 +1,17 @@
-package com.example.findrestaurant.dialog
+package com.example.findrestaurant.presentation.dialog
 
+import android.app.Activity
+import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import androidx.activity.viewModels
 import com.example.findrestaurant.R
 import com.example.findrestaurant.databinding.ActivityMapsBinding
 import com.example.findrestaurant.model.InfoDetail
 import com.example.findrestaurant.model.InfoRequest
 import com.example.findrestaurant.model.InfoResponse
+import com.example.findrestaurant.presentation.dialog.adapters.InfoListAdapter
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
@@ -16,7 +21,16 @@ import com.google.android.gms.maps.model.MarkerOptions
 
 
 class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
-
+    companion object {
+        fun start(activity: Activity) {
+            Intent(activity, MapsActivity::class.java).apply {
+                addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
+                addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP)
+            }.also {
+                activity.startActivity(it)
+            }
+        }
+    }
     private lateinit var mMap: GoogleMap
     private lateinit var binding: ActivityMapsBinding
 

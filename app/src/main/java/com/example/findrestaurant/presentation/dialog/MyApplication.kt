@@ -1,8 +1,6 @@
-package com.example.findrestaurant
+package com.example.findrestaurant.presentation.dialog
 
 import android.app.Application
-import android.content.Context
-import android.content.SharedPreferences
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
 import com.example.findrestaurant.common.AppConstant

@@ -1,4 +1,4 @@
-package com.example.findrestaurant.dialog
+package com.example.findrestaurant.presentation.dialog
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
